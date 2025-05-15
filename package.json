@@ -1,0 +1,13 @@
+{
+  "name": "bookstore_project",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start:frontend": "node frontend/index.js",
+    "start:inventory": "node inventory_service/index.js",
+    "start:order": "node order_service/index.js"
+  }
+}
